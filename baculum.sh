@@ -10,6 +10,9 @@ wget -qO - http://www.bacula.org/downloads/baculum/baculum.pub | apt-key add -
 echo "deb http://www.bacula.org/downloads/baculum/stable-11/debian bullseye main
 deb-src http://www.bacula.org/downloads/baculum/stable-11/debian bullseye main" > /etc/apt/sources.list.d/baculum.list
 
+# Atualizando repositorio
+apt update
+
 # Instalando baculum api
 apt-get install baculum-common baculum-api baculum-api-apache2
 
