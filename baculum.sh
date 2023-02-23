@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Instalando dependencia
-apt intall gnupg2 -y
+apt isntall gnupg2 -y
 
 # Adicionando apt-key
 wget -qO - http://www.bacula.org/downloads/baculum/baculum.pub | apt-key add -
